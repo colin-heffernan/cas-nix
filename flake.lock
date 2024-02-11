@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "cas": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1611101383,
+        "narHash": "sha256-E+Gn4yn/1BTn1T9BIbEYo3UuPBPKHgt3OpJJiTnR9UI=",
+        "owner": "~bfiedler",
+        "repo": "cas",
+        "rev": "894d9c7a564835801cad09c6616b10510a4f76c7",
+        "type": "sourcehut"
+      },
+      "original": {
+        "owner": "~bfiedler",
+        "repo": "cas",
+        "type": "sourcehut"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1707546158,
+        "narHash": "sha256-nYYJTpzfPMDxI8mzhQsYjIUX+grorqjKEU9Np6Xwy/0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d934204a0f8d9198e1e4515dd6fec76a139c87f0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cas": "cas",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
